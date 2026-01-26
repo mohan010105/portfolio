@@ -22,7 +22,7 @@ export function About() {
             <div className="space-y-8 text-lg md:text-xl text-muted-foreground leading-relaxed">
               <p>
                 I am a <span className="text-foreground font-medium">Software Engineer</span> with hands-on experience in
-                Front-end and Full-Stack Web Development, focused on building scalable and user-centric web applications
+                Full-Stack Web Developer and Data Analyst, focused on building scalable and user-centric web applications
                 using modern technologies such as React and JavaScript.
               </p>
 
@@ -35,4 +35,6 @@ export function About() {
           </motion.div>
         </div>
       </div>
-   
+    </section>
+  );
+}
