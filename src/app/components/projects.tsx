@@ -5,6 +5,21 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
+  title: "BugTrackr – Project Management & Task Tracking System",
+  problem: "A scalable project management platform designed to streamline team collaboration, task assignment, and real-time workflow tracking with role-based access control.",
+  highlights: [
+    "Role-based project assignment (Manager, Team Lead, Developer, Tester, UI/UX)",
+    "Kanban board with drag-and-drop task management",
+    "Real-time and email notifications for task updates and assignments",
+    "Overdue task automation with alerts and tracking",
+    "Secure authentication and data handling using Supabase",
+    "Interactive admin dashboard with analytics and insights"
+  ],
+  tech: ["Next.js", "React", "Tailwind CSS", "Supabase", "Realtime APIs", "Nodemailer"],
+  role: "Full-Stack Developer",
+  github: "https://github.com/mohan010105/project_management_app.git"
+},
+  {
     title: "Excel Analytics Platform",
     problem: "Full-stack analytics platform processing Excel files and generating interactive insights",
     highlights: [
@@ -39,6 +54,42 @@ const projects = [
     tech: ["React", "Backend APIs", "Cloud Storage", "Supabase"],
     role: "Full-Stack",
     github: "https://github.com/mohan010105/GoogleDrive.git"
+  },
+  {
+  title: "RideNova – Real-Time Cab Booking System",
+  problem: "Designed and developed a scalable ride-hailing platform similar to Uber that supports real-time tracking, secure ride verification, and digital wallet payments",
+  highlights: [
+    "Implemented real-time driver tracking using WebSockets (Socket.io)",
+    "Built OTP-based ride verification to prevent unauthorized ride starts",
+    "Integrated Razorpay for secure wallet top-up and payment handling",
+    "Developed intelligent driver assignment based on nearest location",
+    "Enabled live route calculation and ETA using OpenRouteService",
+    "Designed responsive UI for user, driver, and admin dashboards"
+  ],
+  tech: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "Supabase (PostgreSQL)",
+    "Socket.io",
+    "OpenStreetMap",
+    "OpenRouteService API",
+    "Razorpay"
+  ],
+  role: "Full-Stack Developer",
+  github: "https://github.com/mohan010105/RideNovaa.git"
+},
+{
+    title: "Resume Builder",
+    problem: "Dynamic resume builder generating professional resumes from structured input",
+    highlights: [
+      "Real-time preview",
+      "Structured sections",
+      "Export-ready design"
+    ],
+    tech: ["React", "JavaScript", "TailwindCSS", "Firebase"],
+    role: "Frontend",
+    live: "https://profile-x-sigma.vercel.app/"
   },
   {
     title: "Resume Builder",
